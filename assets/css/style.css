@@ -9,3 +9,24 @@ footer
 {
 	width: 960px;
 }
+
+.no_image
+{
+	/* I understand the technical reasons for the assignment to require a separate background for the content vs the generic textured background, but I think it looks better with just the texture.
+	*/
+	background-image: none;
+  background-color: #efeee7;
+}
+
+#bio-image
+{
+  /*width: 200px;*/
+  width: 33%;
+  margin-right: 20px;
+}
+
+.icon
+{
+	width: 100%;
+	border: 0;
+}
