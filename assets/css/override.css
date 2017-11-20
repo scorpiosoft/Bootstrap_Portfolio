@@ -110,4 +110,5 @@ a.bg-navy:focus, a.bg-navy:hover
 a.text-navy:focus, a.text-navy:hover
 {
   color: #090788 !important;
+  background-color: #868e96 !important;
 }

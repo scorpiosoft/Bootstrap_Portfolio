@@ -2,7 +2,7 @@ footer
 {
 	/* Bootstrap has very poor border support */
   border-top: 5px solid navy;
-  background-color: #666 !important;
+  background-color: #343a40 !important;
 }
 
 .all_content
@@ -10,17 +10,8 @@ footer
 	width: 960px;
 }
 
-.no_image
-{
-	/* I understand the technical reasons for the assignment to require a separate background for the content vs the generic textured background, but I think it looks better with just the texture.
-	*/
-	background-image: none;
-  background-color: #efeee7;
-}
-
 #bio-image
 {
-  /*width: 200px;*/
   width: 33%;
   margin-right: 20px;
 }
@@ -29,4 +20,38 @@ footer
 {
 	width: 100%;
 	border: 0;
+}
+
+.folio_row
+{
+	height: 220px !important;
+	max-height: 220px !important;
+	margin-bottom: 20px !important;
+}
+
+.folio_box
+{
+	width: 100%;
+	max-height: inherit;
+}
+
+.folio_image
+{
+	width: inherit;
+	max-height: inherit;
+	z-index: 1;
+}
+
+.folio_banner
+{
+	color: #f8f9fa; /* light */
+	background-color: navy;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	/*width: inherit;*/ /* for some reason the banner is inheriting width from the col-sm-6, not the folio-box */
+	width: calc(100% - 30px);
+	position: absolute;
+	bottom: 20px;
+  z-index: 2;
+  margin: auto !important;
 }
