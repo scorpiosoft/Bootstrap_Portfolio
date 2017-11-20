@@ -1,0 +1,11 @@
+footer
+{
+	/* Bootstrap has very poor border support */
+  border-top: 5px solid navy;
+  background-color: #666 !important;
+}
+
+.all_content
+{
+	width: 960px;
+}
