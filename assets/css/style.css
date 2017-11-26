@@ -1,13 +1,8 @@
 footer
 {
-	/* Bootstrap has very poor border support */
+  /* Bootstrap has very poor border support */
   border-top: 5px solid navy;
   background-color: #343a40 !important;
-}
-
-.all_content
-{
-	width: 960px;
 }
 
 #bio-image
@@ -18,40 +13,41 @@ footer
 
 .icon
 {
-	width: 100%;
-	border: 0;
+  width: 100%;
+  border: 0;
 }
 
 .folio_row
 {
-	height: 220px !important;
-	max-height: 220px !important;
-	margin-bottom: 20px !important;
+  max-height: 300px !important;
+  overflow: hidden;
 }
 
 .folio_box
 {
-	width: 100%;
-	max-height: inherit;
+  width: 100%;
+  max-height: inherit;
+  overflow: inherit;
 }
 
 .folio_image
 {
-	width: inherit;
-	max-height: inherit;
-	z-index: 1;
+  width: inherit;
+  max-height: inherit;
+  overflow: inherit;
+  z-index: 1;
 }
 
 .folio_banner
 {
-	color: #f8f9fa; /* light */
-	background-color: navy;
-	text-align: center;
-	padding: 15px 0 15px 0;
-	/*width: inherit;*/ /* for some reason the banner is inheriting width from the col-sm-6, not the folio-box */
-	width: calc(100% - 30px);
-	position: absolute;
-	bottom: 20px;
+  color: #f8f9fa; /* light */
+  background-color: navy;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  /*width: inherit;*/ /* for some reason the banner is inheriting width from the col-sm-6, not the folio-box */
+  width: calc(100% - 30px);
+  position: absolute;
+  bottom: 20px;
   z-index: 2;
   margin: auto !important;
 }
